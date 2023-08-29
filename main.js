@@ -12,7 +12,7 @@ hamburger.addEventListener('click', ()=> {
        line3.classList.toggle("active")
   
 })
-mobile.mobileMenu.addEventListener('click', () => {
+mobileMenu.addEventListener('click', () => {
   mobileMenu.classList.remove('active')
 })
 
