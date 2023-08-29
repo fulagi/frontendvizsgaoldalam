@@ -12,6 +12,9 @@ hamburger.addEventListener('click', ()=> {
        line3.classList.toggle("active")
   
 })
+mobile.mobileMenu.addEventListener('click', () => {
+  mobileMenu.classList.remove('active')
+})
 
 function magnify(cikesz, zoom) {
   var img, glass, w, h, bw;
